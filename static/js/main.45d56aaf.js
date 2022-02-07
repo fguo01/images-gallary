@@ -554,7 +554,7 @@
     n(3);
     var d = function(e) {
         function t(e) { o(this, t); var n = a(this, (t.__proto__ || Object.getPrototypeOf(t)).call(this, e)); return n.handleChange = function(e) { n.setState({ search: e.target.value }) }, n.state = { search: "" }, n.handleChange = n.handleChange.bind(n), n }
-        return l(t, e), i(t, [{ key: "render", value: function() { return s.default.createElement("div", null, s.default.createElement("center", null, s.default.createElement("h1", { align: "center", style: { color: "red" } }, " Create Your Travel Gallery Wall   "), s.default.createElement("input", { type: "text", className: "inputbox", onChange: this.handleChange })), s.default.createElement(f.default, { search: this.state.search })) } }]), t
+        return l(t, e), i(t, [{ key: "render", value: function() { return s.default.createElement("div", null, s.default.createElement("center", null, s.default.createElement("h1", { align: "center", style: { color: "red" } }, " Find Favorite Your Picture "), s.default.createElement("input", { type: "text", className: "inputbox", onChange: this.handleChange })), s.default.createElement(f.default, { search: this.state.search })) } }]), t
     }(u.Component);
     t.default = d
 }, 3, 3, function(e, t) {
